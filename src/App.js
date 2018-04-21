@@ -122,7 +122,7 @@ onSubmit = () => {
     app.models.predict(Clarifai.FOOD_MODEL, this.state.input)
     .then( response => {
       if(response){
-          fetch('http://localhost:3000/Image', {
+          fetch('https://murmuring-forest-45517.herokuapp.com/Image', {
           method: 'put',
           headers: {'Content-Type':'application/json'},
           body: JSON.stringify({
