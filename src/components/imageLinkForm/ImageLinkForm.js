@@ -7,7 +7,7 @@ const ImageLinkForm = ({onInputChange, onSubmit}) => {
 			
 				<div className='center'>
 					<div className='center w-80 w-60-ns'>
-						<p className='f3 white'>{`Past a Image URL Here, and Check Out. It Detects Faces`}</p>
+						<p className='f3 white'>{`Past a Image URL Here, and Check Out. how it detects ingrediants`}</p>
 					</div>
 					<div className='center w-80 w-40-ns'>
 						<div className=' ba bg-white o-60 b--white shadow-5 w-100 pa4 h-auto cf'>
